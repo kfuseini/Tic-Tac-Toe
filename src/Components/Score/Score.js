@@ -1,14 +1,14 @@
 import React from 'react';
 import './Score.css';
 
-const Score = ({score}) => {
+const Score = ({who, score}) => {
     return(
         <div className="score">
             <div className="lit-score">
-                Computer
+                { who }
             </div>
             <div className="num-score">
-                score
+                { score }
             </div>
         </div>
     );

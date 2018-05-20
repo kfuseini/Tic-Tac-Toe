@@ -1,9 +1,9 @@
 import React from 'react';
 import './Cell.css';
 
-const Cell = ({value, clicked}) => {
+const Cell = ({value, clicked, id}) => {
     return(
-        <div className="cell" onClick={clicked}>
+        <div className="cell" onClick={clicked} id={id}>
             {value}
         </div>
     );
