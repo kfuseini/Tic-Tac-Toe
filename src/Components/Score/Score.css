@@ -1,0 +1,22 @@
+.score {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.lit-score {
+    background-color: blueviolet;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.num-score {
+    background-color: bisque;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    padding-top: 10px;
+}
